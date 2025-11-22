@@ -4,4 +4,4 @@ ENV COURSE="DOCKER" \
     AUTHOR="info@joindevops.com" \
     DURATION="120"
  
-CMD ["sleep" "1000"]    
+CMD ["sleep", "1000"]    
