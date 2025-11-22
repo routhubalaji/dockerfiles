@@ -6,5 +6,5 @@ ARG Course="docker" \
     Author="info@joindevops.com" \
     Duration="120"
 
-RUN echo "Course: ${Course}, Trainer: ${Trainer}, Author: ${Trainer} Duration: ${Duration} VERSION: ${VERSION}"    
+RUN echo "Course: ${Course}, Trainer: ${Trainer}, Author: ${Trainer} Duration: ${Duration}"    
 CMD ["sleep", "1000"]
