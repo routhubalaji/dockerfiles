@@ -1,5 +1,5 @@
 ARG VERSION
-# FROM almalinux:${VERSION:-9}
+FROM almalinux:${VERSION:-9}
 
 ARG Course="docker" \
     Trainer="sivakumar" \
